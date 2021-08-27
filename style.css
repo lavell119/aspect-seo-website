@@ -1085,10 +1085,12 @@ body
 
 .contact-form-body
 {
+	position: relative;
+	top: 30vh;
 	width: 550px;
 	background-color: #fff;
 	box-shadow: 0 0 10px #d3d3d3;
-	height: 495px;
+	height: 455px;
 	margin: auto;
 	margin-top: 3rem;
 	
@@ -1136,7 +1138,7 @@ form
 	width: 450px;
 	margin: auto;
 	padding-top: 5%;
-	height: 450px;
+	height: 400px;
 }
 
 .form-row1
@@ -1644,6 +1646,7 @@ form
 		top: 10vh;
 		width: 100vw;
 		height: 68vh;
+		
 	}
 
 	.section7-box
@@ -1660,13 +1663,49 @@ form
 
 	.contact-form-body
 	{
+		top: 20vh;
 		width: 88vw;
 	}
 
 	.row1
 	{
-		width: 40%;
-		margin: 1vw;
+		width: 42%;
+		
+	}
+
+	.form-content
+	{
+		width: 88%;
 		
 	}
 	
+	.subject-field
+	{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.message-field
+	{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.contact-form-title
+	{
+		z-index: 100000;
+		position: relative;
+		marginiu: auto;
+		top: 15vh;
+	}
+	
+	.section7
+	{
+		height: 220vh;
+	}
+
+	.nav-container.sticky img
+	{
+		position: relative;
+		top: 45%;
+	}
