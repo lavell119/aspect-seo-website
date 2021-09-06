@@ -15,7 +15,7 @@ body
 
 .top-mini-bar
 {
-	opacity: .4;
+	opacity: .2;
   	position: absolute;
 	top: 0;	
 	width: 100%;
@@ -192,6 +192,7 @@ body
 	background: linear-gradient(45deg,blue,purple);
 	border-radius: 0 0 50% 50%/0 0 100% 100%;
 	transform: scaleX(2.5);
+	box-sizing: border-box;
 	
 }
 
@@ -633,7 +634,7 @@ body
 
 .section4
 {
-	background: blue;
+	background: linear-gradient(220deg,#2c00d4,#60009f);
 	height: 110vh;
 	width: 100%;
 	color: white;
@@ -1159,7 +1160,7 @@ form
 {
 	height: 40vh;
 	width: 100%;
-	background: blue;
+	background: linear-gradient(220deg,#2c00d4,#60009f);
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
