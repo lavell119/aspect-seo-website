@@ -259,7 +259,7 @@ body
 	width: 50vw;
 	height: 70vh;
 	right: 0;
-	margin-right: -90px;
+	
 	
 
 }
@@ -267,8 +267,9 @@ body
 .section1-content-right img
 {
 	position: relative;
-	width: 50vw;
-	height: 70vh;
+	width: 100%;
+	height: auto;
+	right: 0;
 		
 }
 
