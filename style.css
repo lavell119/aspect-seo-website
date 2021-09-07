@@ -203,10 +203,11 @@ body
 	height: 80vh;
 	align-items: center;
 	align-content: center;
+	justify-content: center;
 	position: relative;
-	top: 95px;
+	top: 70px;
 	display: flex;
-
+	
 		
 }
 
@@ -216,15 +217,17 @@ body
 {
 	position: relative;
 	z-index: 1;
-	padding: 0 9% 0 9%;
+	padding: 0 6% 0 6%;
 	bottom: 40px;
 	left: 25px;
+	
 
 }
 
 .section1-content-left h2
 {
 	line-height: 1.5;
+	font-size: 34px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -260,6 +263,7 @@ body
 	width: 50vw;
 	height: 70vh;
 	right: 0;
+
 	
 	
 
@@ -271,6 +275,7 @@ body
 	width: 100%;
 	height: auto;
 	right: 0;
+
 		
 }
 
@@ -845,7 +850,7 @@ body
 
 .test-column p
 {
-	font-size: 1.3rem;
+	font-size: 20px;
 	width: 90%;
 	margin: auto;
 	margin-top: 20px;
@@ -1336,12 +1341,16 @@ form
 		display: none;
 	}
 
+	.section1
+	{
+	z-index: 1000000;
+	}
 
 	.section1-content-left
 	
 	{
-		top: 5px;
-		left: 25px;
+		top: 139px;
+		left: 20px;
 		padding: 0% 11% 0% 0%;
 		z-index: 201;
 		width: 420px;
@@ -1354,12 +1363,20 @@ form
 		align-self: flex-end;
 	}
 
+	.section1-content-left p
+	
+	{
+		font-size: 17.5px;
+		line-height: 2;
+	}
+
+
 	.section1-content-right 
 	{
 		width: 100vw;
 		padding-left: 0px;
 		margin: auto;
-		top: 100px;
+		top: 224px;
 		display: flex;	
 		align-items: center;
 		z-index: 201;
