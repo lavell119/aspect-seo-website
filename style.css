@@ -219,15 +219,14 @@ body
 	z-index: 1;
 	padding: 0 6% 0 6%;
 	bottom: 40px;
-	left: 25px;
-	
+	left: 24px;
 
 }
 
 .section1-content-left h2
 {
 	line-height: 1.5;
-	font-size: 34px;
+	font-size: 2px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -335,6 +334,10 @@ body
 	width: 110%;
 }
 
+.sc2-item2 h3
+{
+	font-size: 17px;
+}
 
 
 .sc2-item2
@@ -342,6 +345,11 @@ body
 	grid-area: content1;
 	align-self: start;
 	
+	
+}
+
+.sc2-item2 h2
+{
 	
 }
 
@@ -353,6 +361,11 @@ body
 	
 }
 
+.sc2-item3 h3
+{
+	font-size: 17px;
+}
+
 .sc2-item4
 {
 	grid-area: content3;
@@ -360,6 +373,12 @@ body
 	
 	
 }
+
+.sc2-item4 h3
+{
+	font-size: 17px;
+}
+
 
 .section2 img
 {
@@ -904,7 +923,7 @@ body
 
 .price-box
 {
-	height: 105%;
+	height: 960px;
 	width: 367px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
 	background: white;
@@ -997,6 +1016,7 @@ body
 	margin: auto;
 	width: 45%;
 	display: block;
+
 }
 
 .gold
@@ -1044,6 +1064,7 @@ body
 	margin: auto;	
 	
 	
+	
 }
 
 .sec7-box-content
@@ -1055,6 +1076,7 @@ body
 	width: 60%;
 	height: 80%;
 	margin: 0px;
+	
 
 }
 
@@ -1161,6 +1183,8 @@ form
 	width: 43%;
 }
 
+
+
 .footer
 {
 	height: 40vh;
@@ -1235,6 +1259,11 @@ form
 	line-height: 1.8;
 }
 
+.footer2-background
+{
+	background: linear-gradient(220deg,#2c00d4,#60009f);
+}
+
 .footer2
 {
 	height: 10vh;
@@ -1245,7 +1274,7 @@ form
 	align-items: center;
 	font-size: .9rem;
 	color: white;
-	
+	opacity: .2;	
 }
 
 .nav-slide
