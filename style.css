@@ -1839,7 +1839,7 @@ form
 
 }
 
-@media (min-width: 500px) and (max-width: 1000px){
+@media (min-width: 500px) and (max-width: 1500px){
 	.nav
 	{
 		display: none;
@@ -1858,6 +1858,11 @@ form
 	{
 		position: relative:
 		left: 0px;
+	}
+
+	.section1-content-left h2
+	{
+		font-size: 36px;
 	}
 
 }
