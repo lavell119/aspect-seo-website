@@ -208,7 +208,7 @@ body
 	position: relative;
 	top: 70px;
 	display: flex;
-	
+	box-sizing: border-box;
 		
 }
 
@@ -217,10 +217,13 @@ body
 .section1-content-left
 {
 	position: relative;
+	margin: auto;
 	z-index: 1;
 	padding: 0 0 0 160px;
-	padding-left: 110px;
+	padding-left: 9.5vw;
 	bottom: 20px;
+	width: 50vw;
+	box-sizing: border-box;
 	
 
 
@@ -229,10 +232,9 @@ body
 .section1-content-left h2
 {
 	line-height: 1.4;
-	font-size: 2px;
 	margin: 0px;
 	padding: 0px;
-	width: 500px;
+	width: 95%;
 
 }
 
@@ -243,7 +245,7 @@ body
 	top: 10px;
 	line-height: 1.5;	
 	padding-bottom: 7px;
-	width: 500px;
+	width: 100%;
 }
 
 .section1-content-left button
@@ -267,10 +269,6 @@ body
 	z-index: 1;
 	width: 50vw;
 	height: 70vh;
-	left: 30px;
-
-	
-	
 
 }
 	
@@ -931,6 +929,7 @@ body
 {
 	height: 960px;
 	width: 367px;
+	margin: 15px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
 	background: white;
 
@@ -1362,7 +1361,7 @@ form
 	color: grey;
 }
 
-@media (max-width: 1079px)
+@media (min-width: 800px) and (max-width: 1000px)
 {
 	.top-mini-bar
 	{
@@ -1372,9 +1371,10 @@ form
 	{
 		display: none;
 	}
-	.nav
+	
+	.section1
 	{
-		
+	top: 100px;
 	}
 }
 
@@ -1877,7 +1877,26 @@ form
 
 }
 
-@media (min-width: 1000px) and (max-width: 1500px){
+@media (min-width: 1000px) and (max-width: 1300px){
 	
+	
+		.section1-content-left 
+		{
+			padding-left: 80px;
+		}
+}
 
+@media (min-width: 800px) and (max-width: 1000px){
+	
+	
+		.section1-content-left 
+		{
+			padding-left: 33px;
+		}
+
+		.section1-content-left h2
+		{
+			font-size: 36px;
+		}
+	
 }
