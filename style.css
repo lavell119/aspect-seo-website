@@ -275,7 +275,7 @@ body
 .section1-content-right img
 {
 	position: relative;
-	width: 100%;
+	width: 690px;
 	height: auto;
 	right: 0px;
 
@@ -1884,6 +1884,11 @@ form
 		{
 			padding-left: 80px;
 		}
+	
+		.section1-content-right img
+		{
+			width: 650px;	
+		}
 }
 
 @media (min-width: 800px) and (max-width: 1000px){
@@ -1891,12 +1896,16 @@ form
 	
 		.section1-content-left 
 		{
-			padding-left: 33px;
+			padding-left: 32px;
 		}
 
 		.section1-content-left h2
 		{
-			font-size: 36px;
+			font-size: 33px;
 		}
-	
+		.section1-content-right img
+		{
+			width: 530px;	
+			top: 40px;
+		}
 }
