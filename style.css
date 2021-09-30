@@ -1887,8 +1887,13 @@ form
 	
 		.section1-content-right img
 		{
-			width: 650px;	
+			width: 670px;	
 		}
+		
+
+		
+		
+	
 }
 
 @media (min-width: 800px) and (max-width: 1000px){
@@ -1908,4 +1913,42 @@ form
 			width: 530px;	
 			top: 40px;
 		}
+}
+
+@media (min-width: 970px) and (max-width: 1200px){
+
+		.section1-content-right img
+		{
+			width: 110%;
+		}
+
+		.section1-content-left p
+		{
+			font-size: 18px;
+		}
+
+		.section1-content-left 
+		{
+			bottom: 58px;
+		}
+}
+
+@media (min-width: 800px) and (max-width: 970px){
+
+		.section1-content-right img
+		{
+			width: 100%;
+
+		}
+
+		.section1-content-left
+		{
+			padding-left: 77px;
+			width: 400px;
+			bottom: 55px;
+			right: 36px; 
+		}
+		
+		
+		
 }
