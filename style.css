@@ -7,7 +7,8 @@ body
 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Noto Sans', sans-serif;;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'courier new';
 	overflow-x: hidden;
 	line-height: 1.6;
 	
@@ -94,21 +95,22 @@ body
 	position: relative;
 	font-family: verdana;
 	box-sizing: border-box;
-
-	
 }
 
-
-.logo img
+ .logo img
 {
 
 	position: relative;
-	height: 30px;
+	height: 130px;
+	width: autp;
 	transition: .5;
+	color: white;
+	position: relative;
+	top: 34px;
+	top: 5px;
+	left: 6px;
 
-	
 }
-
 
 .nav-container 
 {
@@ -171,7 +173,7 @@ body
 
 .nav
 {
-	text-size: 14px;
+	font-size: 18px;
 }
 
 .nav-slide
@@ -190,9 +192,11 @@ body
 	width: 100%;
 	height: 110%;
 	background: linear-gradient(220deg,#2c00d4,#60009f);
+	
 	border-radius: 0 0 50% 50%/0 0 100% 100%;
 	transform: scaleX(2.5);
 	box-sizing: border-box;
+	background-size: 100%;
 	
 }
 
@@ -408,7 +412,6 @@ body
 .section2-5
 {
 	background: white;
-	300px;
 	width: 90%;
 	z-index: 344;
 	margin: auto;
@@ -595,11 +598,12 @@ body
 	grid-area: dr;
 }
 
-
 .247-support
 {
 	grid-area: 247;
 }
+
+
 
 .organic-growth
 {
@@ -902,8 +906,16 @@ body
 .pricing-section
 {
 	width: 100%;
-	height: 182vh;
+	height: 390vh;
 
+}
+
+.pr-sec-title-1
+{
+	width: 25%;
+	text-align: center;
+	margin: auto;
+	padding-top: 70px;
 }
 
 .pr-sec-title
@@ -923,6 +935,34 @@ body
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	bottom: 55px;
+
+}
+
+.price-boxes-container-1 {
+	width: 86%;
+	margin: auto;
+	height: 134vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.price-starter-box {
+	padding: 0 20px 0 20px;
+}
+
+.seo-assessment-box-dollar {
+	padding-right: 5px;
+	position: relative;
+	bottom: 7px;
+}
+
+.plan-summary {
+	padding-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
 }
 
 .price-box
@@ -944,6 +984,11 @@ body
 	text-align: center;
 	color: gold;
 
+}
+
+.box-title-black
+{
+	color: black;
 }
 
 .box-title-bronze
@@ -980,6 +1025,30 @@ body
 {
 	font-size: 2.8em;
 	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	position: relative;
+	left: 6px;
+	
+	
+}
+
+.first-dollar-sign {
+	position: relative;
+	padding-left: 5px;
+}
+
+.second-dollar-sign {
+	position: relative;
+	left: 72px;
+}
+
+.starter-price
+{
+	font-size: 2.8em;
+	font-weight: bold;
+	font-family: 'Noto Sans', sans-serif;
+	position: relative;
+	bottom: 7px;
 	
 	
 }
@@ -987,6 +1056,8 @@ body
 .dollar-sign
 {
 	font-weight: 600;
+	position: relative;
+	left: 12px;
 	
 }
 
@@ -1008,6 +1079,9 @@ body
 	margin: auto;
 }
 
+.hide {
+	display: none;
+}
 
 .feature img
 {
@@ -1049,6 +1123,10 @@ body
 	color: white;
 }
 
+.drop-down {
+	background: yellow;
+}
+
 .section7
 {	
 	height: 175vh;
@@ -1059,8 +1137,9 @@ body
 	width: 35%;
 	margin: auto;
 	text-align: center;
-	padding-top: 10vh;
-	top: 6rem;
+	position: relative;
+	bottom: 111px;
+	background: red;
 }
 
 .section7-box-container
@@ -1069,12 +1148,9 @@ body
 	height: 40vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	
+	align-items: center;	
 	width: 100vw;
-	
-	
-	
+	position: relative;
 }
 
 .section7-box
@@ -1089,6 +1165,10 @@ body
 	
 	
 	
+}
+
+.price-starter-box {
+	height: 600px;
 }
 
 .sec7-box-content
@@ -1534,7 +1614,7 @@ form
 	{
 		display: flex;
 		flex-direction: column;
-		padding: 
+		
 	}
 	
 	.section2-5-left

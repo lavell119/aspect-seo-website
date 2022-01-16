@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<div class="top-mini-bar">
@@ -33,7 +34,7 @@
 			</div>
 	<div class="nav-container">
 		<div class="logo">
-			<img src="images/logowhite.png">
+			<img src="images/logo-white.png">
 		</div>
 	
 		<div class="nav">
@@ -280,10 +281,94 @@
 	<div class="pricing-link">
 			<a name="pricing-link"></a>
 			</div>
-		<div class="pr-sec-title"> 
+		<div class="pr-sec-title-1"> 
 			<h2>Pick your plan</h2>
 			<p>Pick the pack which suits you and we’ll take care 				the rest of the process
 			</p>		
+		</div>
+		<div class="pr-sec-title"> 
+			<h2>Starter Plans</h2>
+			<p>Perfect for beginners
+			</p>		
+		</div>
+		<div class="price-boxes-container-1">
+			
+			<div class="price-box1 price-box price-starter-box">
+				<div class="box-title box-title-black">
+					<p>SEO Assessment</p>
+				</div>
+				<div class="monthly-price">
+					<span class="dollar-sign first-dollar-sign">$</span>
+					<span class="price">499</span>		
+				</div>
+				<div class="plan-summary">
+					Start your SEO journey with an in-depth assessment of your current rankings, any technical issues, opportunity evaluation and more.
+				</div>
+				
+				<div class="feature">
+					<img src="images/check-mark.png">
+					Technical SEO Assessment
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					Content Assessment
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					On-Site SEO Assessment
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					Off-Site SEO Assessment
+				</div>
+				
+				
+				
+				<button class="cta">START TODAY</button>
+			</div>
+			
+			<div class="price-box3 price-box price-starter-box">
+				<div class="box-title box-title-black">
+					<p>Quick Start SEO</p>
+				</div>
+				
+				<div class="monthly-price">
+					<span class="dollar-sign second-dollar-sign">$</span>
+					<span class="price">1499</span>
+				</div>
+				<div class="plan-summary">
+					Using the information we got from your Assessment, we will build a solid SEO foundation for your website with a wholesome, foundational program.
+				</div>
+				<div class="feature drop-down">
+					<img src="images/check-mark.png">
+					Technical SEO Foundation
+				</div>
+				<div class="feature feature-drop-down hide">
+					<ul>
+						<li>Robots.txt</li>
+						<li>XML Sitemap</li>
+						<li>Speed</li>
+						<li>Security</li>
+						<li>Tags</li>
+						<li>And more!</li>
+					</ul>
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					Content Foundation
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					On-Site SEO Foundation
+				</div>
+				<div class="feature">
+					<img src="images/check-mark.png">
+					Off-Site SEO Foundation
+				</div>
+				
+				
+				<button class="cta">START TODAY</button>
+			</div>
 		</div>
 		<div class="price-boxes-container">
 			
@@ -622,6 +707,11 @@
 	}
 	
 
+</script>
+<script>
+	let dropDown=document.querySelector('.drop-down')
+	let featureDropDown=document.querySelector('.feature-drop-down')
+	dropDown.addEventListener('click', () => featureDropDown.classList.remove('.hide'))
 </script>
 
 <script type="text/javascript">
