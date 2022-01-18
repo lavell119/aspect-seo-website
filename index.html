@@ -34,7 +34,7 @@
 			</div>
 	<div class="nav-container">
 		<div class="logo">
-			<img src="images/logotest.png">
+			<img src="images/logo-white-1.png">
 		</div>
 	
 		<div class="nav">
@@ -161,7 +161,7 @@
 					</p>
 					</div>
 				</div>
-				<div class="support">
+				<div class="support sec3item">
 					<div class="support-image">	
 					<img src="images/247-support.png" class="imgsupport">
 					</div>		
@@ -343,7 +343,7 @@
 					<img src="images/check-mark.png">
 					Technical SEO Foundation
 				</div>
-				<div class="feature feature-drop-down hide">
+				<div class="feature feature-drop-down">
 					<ul>
 						<li>Robots.txt</li>
 						<li>XML Sitemap</li>
@@ -723,9 +723,11 @@
 
 </script>
 <script>
-	let dropDown=document.querySelector('.drop-down')
-	let featureDropDown=document.querySelector('.feature-drop-down')
-	dropDown.addEventListener('click', () => featureDropDown.classList.remove('.hide'))
+	let dropDown=document.querySelector(".drop-down");
+	let featureDropDown=document.querySelector(".feature-drop-down");
+	let toggle=() => {featureDropDown.classList.toggle('hide')};
+	dropDown.addEventListener("click", toggle);
+	
 </script>
 
 <script type="text/javascript">
