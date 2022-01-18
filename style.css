@@ -21,7 +21,7 @@ body
 	top: 0;	
 	width: 100%;
 	max-width: 100%;
-	height: 6vh;
+	height: 43px;
 	z-index: 10;
 	background: blue;
 
@@ -101,13 +101,11 @@ body
 {
 
 	position: relative;
-	height: 130px;
+	height: 70px;
 	width: autp;
 	transition: .5;
 	color: white;
 	position: relative;
-	top: 34px;
-	top: 5px;
 	left: 6px;
 
 }
@@ -598,7 +596,7 @@ body
 	grid-area: dr;
 }
 
-.247-support
+.support
 {
 	grid-area: 247;
 }
@@ -636,7 +634,7 @@ body
 	padding-top: 10px;
 }
 
-.247-support img
+.support-img
 {
 	width: 50px;
 	padding-top: 10px;
@@ -910,6 +908,8 @@ body
 
 }
 
+
+
 .pr-sec-title-1
 {
 	width: 25%;
@@ -931,19 +931,18 @@ body
 {
 	width: 86%;
 	margin: auto;
-	height: 134vh;
+	height: 1100px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	position: relative;
-	bottom: 55px;
-
+	top: 67px;
 }
 
 .price-boxes-container-1 {
 	width: 86%;
 	margin: auto;
-	height: 134vh;
+	height: 620px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -967,12 +966,11 @@ body
 
 .price-box
 {
-	height: 960px;
+	height: 1060px;
 	width: 367px;
 	margin: 15px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
 	background: white;
-
 }
 
 .box-title
@@ -982,8 +980,6 @@ body
 	font-size: 1.1em;
 	font-weight: strong;
 	text-align: center;
-	color: gold;
-
 }
 
 .box-title-black
@@ -1139,7 +1135,6 @@ body
 	text-align: center;
 	position: relative;
 	bottom: 111px;
-	background: red;
 }
 
 .section7-box-container
@@ -1809,6 +1804,16 @@ form
 	{
 		width: 430px;
 	}
+
+	.pr-sec-title-2 
+	{
+		
+		width: 25%;
+		text-align: center;
+		margin: auto;
+		padding-top: 70px;
+	}
+
 
 	.price-boxes-container
 	{
