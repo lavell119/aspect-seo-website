@@ -906,6 +906,11 @@ body
 
 }
 
+.pricing-section
+{
+	height: 480vh;
+}
+
 
 
 .pr-sec-title-1
@@ -914,6 +919,7 @@ body
 	text-align: center;
 	margin: auto;
 	padding-top: 70px;
+
 }
 
 .pr-sec-title
@@ -934,13 +940,16 @@ body
 	justify-content: space-between;
 	align-items: flex-start;
 	position: relative;
-	top: 67px;
+}
+
+.monthly-title {
+	padding-bottom: 45px;
 }
 
 .price-boxes-container-1 {
 	width: 86%;
 	margin: auto;
-	height: 620px;
+	height: 820px;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -1094,6 +1103,19 @@ body
 	opacity: .2;
 }
 
+.cta.foundation
+{
+	justify-self: flex-end;
+	
+	margin: auto;
+	width: 45%;	
+
+}
+
+.foundation-box {
+	height: 200px;
+}
+
 .cta
 {
 	position: relative;
@@ -1118,20 +1140,19 @@ body
 }
 
 .feature-drop-down.test {
-	
 	color: red;
 }
 
-.drop-down { 
+.drop-down, .drop-down-2, .drop-down-3, .drop-down-4 { 
 	transition: .5s;
 	cursor: pointer;
 }
 
-.feature-drop-down {
+.feature-drop-down, .feature-drop-down-2, .feature-drop-down-3, .feature-drop-down-4 {
 	transition: .5s;
 }
 
-.feature-drop-down ul li {
+.feature-drop-down .feature-drop-down-2 ul li {
 	cursor: pointer;
 }
 
@@ -1403,6 +1424,14 @@ form
 .nav-slide
 {
 	transition: .5s;
+}
+
+.foundation-box {
+	height: 800px;
+}
+
+.assessment-box {
+	height: 800px;
 }
 
 .services-link
@@ -1812,7 +1841,16 @@ form
 		height: auto;		
 	}
 
+	.pricing-section {
+		height: 1000px;
+	}
+
 	.pr-sec-title
+	{
+		width: 430px;
+	}
+
+	.pr-sec-title-1
 	{
 		width: 430px;
 	}
@@ -1836,14 +1874,22 @@ form
 		height: 440vh;	
 	}
 
+	.price-boxes-container-1
+	{
+		flex-direction: column;
+		background: red;
+		height: 1500px;		
+	}
+
 	.pricing-section
 	{
-		height: 480vh;
+		background: yellow;
+		height: 550vh;
 	}
 
 	.price-box
 	{
-		width: 430px;
+		width: 330px;
 	}
 
 	.section7-header

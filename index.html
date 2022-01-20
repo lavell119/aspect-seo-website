@@ -293,7 +293,7 @@
 		</div>
 		<div class="price-boxes-container-1">
 			
-			<div class="price-box1 price-box price-starter-box">
+			<div class="price-box1 price-box price-starter-box assessment-box">
 				<div class="box-title box-title-black">
 					<p>SEO Assessment</p>
 				</div>
@@ -327,7 +327,7 @@
 				<button class="cta">START TODAY</button>
 			</div>
 			
-			<div class="price-box3 price-box price-starter-box">
+			<div class="price-box3 price-box price-starter-box foundation-box">
 				<div class="box-title box-title-black">
 					<p>Quick Start SEO</p>
 				</div>
@@ -343,34 +343,61 @@
 					<img src="images/check-mark.png">
 					Technical SEO Foundation
 				</div>
-				<div class="feature feature-drop-down">
+				<div class="feature feature-drop-down all-drop-downs">
 					<ul>
 						<li>Robots.txt</li>
 						<li>XML Sitemap</li>
-						<li>Speed</li>
+						<li>Schema</li>
 						<li>Security</li>
 						<li>Tags</li>
 						<li>And more!</li>
 					</ul>
 				</div>
-				<div class="feature">
+				<div class="feature drop-down-2">
 					<img src="images/check-mark.png">
 					Content Foundation
 				</div>
-				<div class="feature">
+				<div class="feature feature-drop-down-2 hide">
+					<ul>
+						<li>Content Quality</li>
+						<li>Content Quantity</li>
+						<li>Keyword Strategy</li>
+						<li>User Intent</li>
+						<li>Recency</li>
+						<li>And more!</li>
+					</ul>
+				</div>
+				<div class="feature drop-down-3">
 					<img src="images/check-mark.png">
 					On-Site SEO Foundation
 				</div>
-				<div class="feature">
-					<img src="images/check-mark.png">
-					Off-Site SEO Foundation
+				<div class="feature feature-drop-down-3 hide">
+					<ul>
+						<li>Page Titles & Meta</li>
+						<li>Desctiptions</li>
+						<li>Alternative Text</li>
+						<li>Internal Links</li>
+						<li>Headers</li>
+					</ul>
 				</div>
+				<div class="feature drop-down-4">
+					<img src="images/check-mark.png">
+					Off-Site SEO 
+				</div>
+				<div class="feature feature-drop-down-4 hide">
+					<ul>
+						<li>Backlinks</li>
+						<li>Local Search</li>
+						<li>Data Tracking</li>
+						<li>And more!</li>
+					</ul>
+				</div>
+				<button class="cta foundation">START TODAY</button>
+			</div>				
 				
-				
-				<button class="cta">START TODAY</button>
-			</div>
+			
 		</div>
-		<div class="pr-sec-title-1"> 
+		<div class="pr-sec-title-1 monthly-title"> 
 			<h2>Monthly Plans</h2>
 			<p>Maintain your SEO Strategy With Our Monthly Ranking Plans
 			</p>		
@@ -725,9 +752,41 @@
 <script>
 	let dropDown=document.querySelector(".drop-down");
 	let featureDropDown=document.querySelector(".feature-drop-down");
-	let toggle=() => {featureDropDown.classList.toggle('hide')};
-	dropDown.addEventListener("click", toggle);
+	let dropDown2=document.querySelector(".drop-down-2");
+	let featureDropDown2=document.querySelector(".feature-drop-down-2");
+	let dropDown3=document.querySelector(".drop-down-3");
+	let featureDropDown3=document.querySelector(".feature-drop-down-3");
+	let dropDown4=document.querySelector(".drop-down-4");
+	let featureDropDown4=document.querySelector(".feature-drop-down-4");
 	
+	let toggle=() => {
+	featureDropDown.classList.toggle('hide')
+	featureDropDown2.classList.add('hide')
+	featureDropDown3.classList.add('hide')
+	featureDropDown4.classList.add('hide')
+	}
+	dropDown.addEventListener("click", toggle);
+	let toggle2=() => {
+	featureDropDown2.classList.toggle('hide')
+	featureDropDown.classList.add('hide')
+	featureDropDown3.classList.add('hide')
+	featureDropDown4.classList.add('hide')
+	}	
+	dropDown2.addEventListener("click", toggle2);
+	let toggle3=() => {
+	featureDropDown3.classList.toggle('hide')
+	featureDropDown2.classList.add('hide')
+	featureDropDown.classList.add('hide')
+	featureDropDown4.classList.add('hide')
+	}
+	dropDown3.addEventListener("click", toggle3);
+	let toggle4=() => {
+	featureDropDown4.classList.toggle('hide')
+	featureDropDown3.classList.add('hide')
+	featureDropDown.classList.add('hide')
+	featureDropDown2.classList.add('hide')
+	}
+	dropDown4.addEventListener("click", toggle4);
 </script>
 
 <script type="text/javascript">
