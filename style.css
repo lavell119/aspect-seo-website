@@ -748,12 +748,11 @@ body
 .slider-container
 {
 	width: 800px;
-	height: 330px;
+	height: 360px;
 	position: relative;
 	top: 200px;
 	left: 50%;
 	transform: translate(-50%,-50%);
-
 }
 
 
@@ -799,7 +798,6 @@ body
 	position: relative;
 	margin: auto;
 	top: 22px;
-
 }
 
 .test-name span
@@ -808,12 +806,12 @@ body
 	font-size: .8rem;
 	text-align: center;
 	display: block;
+	
 }
 
 .test-name
 {
-	position: relative;
-	top: 25px;
+	height: 150px;
 }
 
 .test-name h4
@@ -896,22 +894,13 @@ body
 .companies-strip-container > img
 {
 	height: 30%;
-
 }
 
 .pricing-section
 {
 	width: 100%;
-	height: 340vh;
-
+	height: 400vh;
 }
-
-.pricing-section
-{
-	height: 480vh;
-}
-
-
 
 .pr-sec-title-1
 {
@@ -973,7 +962,7 @@ body
 
 .price-box
 {
-	height: 1060px;
+	height: 1080px;
 	width: 367px;
 	margin: 15px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
@@ -1164,8 +1153,7 @@ body
 	width: 35%;
 	margin: auto;
 	text-align: center;
-	position: relative;
-	bottom: 111px;
+	
 }
 
 .section7-box-container
@@ -1429,7 +1417,7 @@ form
 }
 
 .assessment-box {
-	height: 800px;
+	height: 555px;
 }
 
 .services-link
@@ -1814,8 +1802,9 @@ form
 
 	.slider-container
 	{
-		height: 410px;
+		height: 430px;
 		top: 43%;
+	
 	}
 
 	.section5
@@ -1872,7 +1861,7 @@ form
 		height: 440vh;	
 	}
 
-	.price-boxes-container-1
+	.test-namees-container-1
 	{
 		flex-direction: column;
 		height: 1400px;		
