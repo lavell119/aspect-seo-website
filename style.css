@@ -962,7 +962,7 @@ body
 
 .price-box
 {
-	height: 1080px;
+	height: 1050px;
 	width: 367px;
 	margin: 15px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
@@ -974,9 +974,7 @@ body
 
 .price-box-container
 {
-	height: 100%;
-	background: yellow;	
-
+	height: 100%;	
 }
 
 .box-title
@@ -1112,7 +1110,7 @@ body
 .cta
 {
 	position: relative;
-	top: 4%;
+	top: 25px;
 	background-color: white;
 	padding: 11px 37px 11px 37px;
 	border: 1px solid blue;
@@ -1424,7 +1422,7 @@ form
 }
 
 .assessment-box {
-	height: 555px;
+	height: 565px;
 }
 
 .services-link
@@ -1884,6 +1882,7 @@ form
 	.price-box
 	{
 		width: 330px;
+		background: green;
 	}
 
 	.assessment-box {
