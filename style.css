@@ -967,6 +967,17 @@ body
 	margin: 15px;
 	filter: drop-shadow(0 0 10px #d3d3d3);
 	background: white;
+	display: flex; 
+	flex-direction: column;
+	justify-content: flex-start;
+	background: red;
+}
+
+.price-box-container
+{
+	background: blue;
+	height: 100%;	
+
 }
 
 .box-title
@@ -1019,9 +1030,7 @@ body
 	font-weight: bold;
 	font-family: 'Noto Sans', sans-serif;
 	position: relative;
-	left: 6px;
-	
-	
+	left: 6px;	
 }
 
 .first-dollar-sign {
