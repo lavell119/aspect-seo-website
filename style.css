@@ -1469,6 +1469,10 @@ form
 
 @media (min-width: 800px) and (max-width: 1000px)
 {
+	.box-title {
+		background: yellow;
+	}
+
 	.top-mini-bar
 	{
 		display: none;
@@ -1484,13 +1488,32 @@ form
 	}
 }
 
+@media (max-width: 1000px) 
+{
+	.box-title {
+		background: green;
+	}
+
+	.price-boxes-container {
+		flex-direction: column;
+		align-items: center;
+		height: 3100px;
+	}
+
+	.monthly {
+		height: 1200px;
+	}
+
+	.pricing-section {
+		height: 4850px;
+	}
+}
+
 @media (max-width: 800px) 
 {
 	.section1
-	{
-	
-	flex-direction: column;
-	
+	{	
+	flex-direction: column;	
 	}
 }
 
@@ -1833,9 +1856,7 @@ form
 		height: auto;		
 	}
 
-	.pricing-section {
-		height: 1000px;
-	}
+	
 
 	.pr-sec-title
 	{
