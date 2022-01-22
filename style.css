@@ -1491,7 +1491,7 @@ form
 @media (max-width: 1000px) 
 {
 	.box-title {
-		background: green;
+		background: blue;
 	}
 
 	.price-boxes-container {
@@ -1717,7 +1717,6 @@ form
 		height: 40%;
 		position: relative;
 		bottom: 4%;
-
 	}
 
 	.section3-content-left img
@@ -1887,7 +1886,7 @@ form
 		height: 440vh;	
 	}
 
-	.test-namees-container-1
+	.test-names-container-1
 	{
 		flex-direction: column;
 		height: 1400px;		
@@ -1902,8 +1901,12 @@ form
 
 	.price-box
 	{
-		width: 330px;
 		background: green;
+	}
+
+	.price-boxes-container {
+		background: yellow;
+		height: 3200px;
 	}
 
 	.assessment-box {
@@ -1930,8 +1933,7 @@ form
 		top: 10vh;
 		height: 68vh;
 		width: 430px;
-		margin: auto;
-		
+		margin: auto;	
 	}
 
 	.section7-box
