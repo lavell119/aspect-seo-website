@@ -970,13 +970,12 @@ body
 	display: flex; 
 	flex-direction: column;
 	justify-content: flex-start;
-	background: red;
 }
 
 .price-box-container
 {
-	background: blue;
-	height: 100%;	
+	height: 100%;
+	background: yellow;	
 
 }
 
@@ -1018,10 +1017,9 @@ body
 	margin: auto;
 	text-align: center;
 	padding-top: 0px;
-	height: 9%;
+	height: 80px;
 	top: -18px;
 	padding-bottom: 0px;
-	
 }
 
 .price
