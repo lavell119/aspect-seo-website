@@ -1469,11 +1469,7 @@ form
 
 @media (min-width: 800px) and (max-width: 1000px)
 {
-	.box-title {
-		background: yellow;
-	}
-
-	.top-mini-bar
+		.top-mini-bar
 	{
 		display: none;
 	}
@@ -1490,14 +1486,17 @@ form
 
 @media (max-width: 1000px) 
 {
-	.box-title {
-		background: blue;
-	}
-
 	.price-boxes-container {
 		flex-direction: column;
 		align-items: center;
-		height: 3100px;
+		height: 3100px;		
+	}
+
+	.price-boxes-container-1 {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		height: 1500px;
 	}
 
 	.monthly {
@@ -1505,7 +1504,7 @@ form
 	}
 
 	.pricing-section {
-		height: 4850px;
+		height: 5500px;
 	}
 }
 
@@ -1899,13 +1898,7 @@ form
 		height: 5600px;
 	}
 
-	.price-box
-	{
-		background: green;
-	}
-
 	.price-boxes-container {
-		background: yellow;
 		height: 3200px;
 	}
 
