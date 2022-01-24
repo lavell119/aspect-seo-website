@@ -107,7 +107,7 @@ body
 	transition: .5;
 	color: white;
 	position: relative;
-	left: 6px;
+	
 
 }
 
@@ -127,7 +127,7 @@ body
 .nav-container.sticky
 {
 	background: white;
-	z-index: 22222;
+	z-index: 22244422;
 	display: sticky;
 	top: 0px;
 	height: 11%;
@@ -1506,6 +1506,39 @@ form
 	.pricing-section {
 		height: 5500px;
 	}
+
+	.logo img {
+		width: 180px;
+		height: auto;
+		position: relative;
+		left: 15px;
+	}
+	
+	.menu {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu img {
+	position: relative;
+	right: 25px;
+}
+
+
+	.logo {
+	width: 50%;
+	left: 0;
+	
+
+	}
+
+	.nav-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: space-between;
+	}
 }
 
 @media (max-width: 800px) 
@@ -1518,13 +1551,13 @@ form
 
 @media (max-width: 800px) 
 {
-	.logo
+	/* .logo
 	{
 		position: absolute;
 		bottom: 35px;
 		right: 220px;
 		
-	}
+	} */
 	
 	.nav-container
 	{
@@ -1990,7 +2023,7 @@ form
 	.nav-container.sticky img
 	{
 		position: relative;
-		top: 45%;
+		
 	}
 	
 	.footer-rows-container
