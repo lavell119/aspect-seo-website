@@ -12,6 +12,26 @@
 
 </head>
 <body>
+	<div class="mobile-menu hide">
+		<img class="mobile-menu-logo" src="images/logo-black.png">
+		<div class="mobile-menu-links">
+			<a href="#home-link" >Home</a>
+			<a href="#services-link"> Services</a>
+			<a href="#test-link" >Testimonials</a>
+			<a href="#pricing-link" >Pricing</a>
+			<a href="#contact-link" >Contact</a>			
+		</div>
+		<div class="mobile-menu-contacts">
+			<div class="phone-mobile">
+				<img src="images/phone-68-32.png">
+				<p>888-219-8821</p>
+			</div>
+			<div class="email-mobile">
+				<img src="images/new-post-32.png">
+				<p>contact@aspectseo.com</p>
+			</div>	
+		</div>
+	</div>
 	<div class="top-mini-bar">
 	</div>
 	<div class="mini-bar-content">
@@ -20,7 +40,7 @@
 		<img src="images/phone-68-32.png">
 		</div>
 		<div class="phone-number">
-		<p>888-219-8821</p>
+		<p>321-348-8537</p>
 		</div>
 		<div class="email-icon">
 		<img src="images/new-post-32.png">
@@ -29,6 +49,7 @@
 		contact@aspectseo.com
 		</div>	
 	</div>
+	
 	<div class="home-link">
 			<a name="home-link"></a>
 			</div>
@@ -37,7 +58,7 @@
 			<img src="images/new-logo-white.png">
 		</div>
 		<div class="menu">
-			<img src="images/menu.png">
+			<img class="menu-white hide" src="images/menu-white.png">
 		</div>
 	
 		<div class="nav">
@@ -725,7 +746,7 @@
 	</div>
 	<div class="footer2-background">
 	<div class="footer2">
-		<div class="copyright">Copyright 2018 @ Aspect SEO. All rights reserved. </div>
+		<div class="copyright">Copyright 2022 @ Aspect SEO. All rights reserved. </div>
 	</div>
 	</div>
 	</div>
@@ -769,6 +790,9 @@
 	let featureDropDown3=document.querySelector(".feature-drop-down-3");
 	let dropDown4=document.querySelector(".drop-down-4");
 	let featureDropDown4=document.querySelector(".feature-drop-down-4");
+	let mobileMenu=document.querySelector('.mobile-menu');
+	let mobileMenuLogo=document.querySelector('.menu-white');
+	mobileMenuLogo.addEventListener("click", ()=> {mobileMenu.classList.toggle('hide')})
 	
 	let toggle=() => {
 	featureDropDown.classList.toggle('hide')
@@ -807,6 +831,10 @@
 
 	
 	})
+</script>
+
+<script>
+	
 </script>
 
 

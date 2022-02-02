@@ -107,8 +107,78 @@ body
 	transition: .5;
 	color: white;
 	position: relative;
+}
+
+	.mobile-menu {
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+	background: white;
+	z-index: 99999999;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-top: 40px;	
+	box-sizing: border-box;
+	transition: .5s;
+} 
+
+
+.mobile-menu-logo {
+	width: 180px;
+	height: auto;
+}
+
+.mobile-menu-contacts img {
+	width: 15px;
+	height: 15px;
+	padding-right: 10px;
+}
+
+.mobile-menu-links  {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 200px;
+	font-size: 17px;
+	position: relative;
+	bottom: 40px;
+}
 	
 
+.phone-mobile {
+	display: flex;
+	align-items: center;
+}
+
+.email-mobile {
+	display: flex;
+	align-items: center;
+	position: relative;
+	bottom: 6px;
+}
+
+.mobile-menu-contacts {
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	width: 100%;
+}
+
+.mobile-menu-links a  {
+	color: white;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}mobile-menu-logo
+
+.menu {
+	display: none;
 }
 
 .nav-container 
@@ -1513,6 +1583,8 @@ form
 		position: relative;
 		left: 15px;
 	}
+
+	
 	
 	.menu {
 	width: 50%;
@@ -1567,6 +1639,11 @@ form
 	.nav
 	{
 		display: none;
+	}
+
+	.menu-white {
+		display: flex;
+		cursor: pointer;
 	}
 
 	.section1
