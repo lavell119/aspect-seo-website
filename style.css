@@ -240,6 +240,24 @@ body
 	box-sizing: border-box;
 }
 
+.toggle-button {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
 .nav
 {
 	font-size: 18px;
